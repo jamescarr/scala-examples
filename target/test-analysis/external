@@ -1,5 +1,5 @@
 #External Dependencies
-#Sun Sep 13 18:20:40 CDT 2009
+#Sun Sep 13 18:29:43 CDT 2009
 /home/jamescarr/projects/scala-examples/project/boot/scala-2.7.5/lib/scala-library.jar=src/test/scala/SolitaireCypherSpec.scala
 /home/jamescarr/projects/scala-examples/lib_managed/compile/specs-1.5.0.jar=src/test/scala/SolitaireCypherSpec.scala
 /home/jamescarr/projects/scala-examples/target/classes/SolitaireCypher.class=src/test/scala/SolitaireCypherSpec.scala

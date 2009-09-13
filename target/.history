@@ -14,3 +14,5 @@ sbt update
 update
 actions
 test
+tests
+test
