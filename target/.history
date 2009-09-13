@@ -1,0 +1,16 @@
+help
+quit
+help
+actions
+run
+run helloWorld
+run
+resolve
+actions
+run
+actions
+clean-lib
+sbt update
+update
+actions
+test
