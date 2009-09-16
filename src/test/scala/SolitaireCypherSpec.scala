@@ -1,7 +1,6 @@
 import org.specs._
 
-object solitaireCypherSpec extends Specification {  
-  var message = "Code in ruby live 2 longer!"
+object solitaireCypherSpec extends Specification { 
   val encryptor = new SolitaireCypher
   "should discard any non A-Z characters" in {     
      val result = encryptor.discardNonAlpha("O>NE!T@W")
@@ -15,8 +14,8 @@ object solitaireCypherSpec extends Specification {
      result must be matching ("^[A-Z]+$")
   }
   
-  "should put a space after each fifth character" in {
-      val result = encryptor.discardNonAlpha(message)
+  "should put a space after each fifth character except last one" in {
+      val result = encryptor.discardNonAlpha("Code in ruby live 2 longer!")
       
       result must be matching("CODEI NRUBY LIVEL ONGER")
   }
